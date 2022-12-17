@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: right;
+}
+
 nav {
     background-color: rgb(255, 68, 0);
     font-family: 'nunito', sans-serif;
@@ -44,9 +50,6 @@ li:hover {
 }
 
 .flex-container {
-    background-image: url(bg.png);
-    background-size: cover;
-    background-position: right;
     display: flex;
     align-items: center;
     /* background-color: brown; */
@@ -77,13 +80,13 @@ li:hover {
     gap: 30px;
 }
 
-
-
-
-
-
-
-
+.fixed {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
 
 
 
